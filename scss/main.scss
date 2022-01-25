@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap');
 *{
 	margin: 0px;
 	padding: 0px;
@@ -16,9 +17,11 @@
 .header_container_item {
 
 .header_container_item_logo {
+	font-family: Rowdies;
 	font-size: 50px;
 	line-height: 150px;
 	padding: 0px 0px 0px 50px;
+	font-weight: 700;
 
 }
 }
