@@ -4,53 +4,102 @@
 	margin: 0px;
 	padding: 0px;
 }
-body{
-
-}
-.body_container{
-	width: 1500px;
+.container{
+	max-width:1080px ;
 	margin: 0px auto;
+
+
+}
+.container_item{
+	.container_item_logo{
+		display: flex;
+		justify-content: center;
+		padding: 0px 0px 0px 20px;
+		font-family: Rowdies;
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 150px;
+
+	}
+}
+.container_item_search{
+	display: flex;
+		justify-content: center;
+		
+
+	.container_item_search_input {
+		width: 560px;
+}
+}
+@media (max-width:1080px) {
+	.container_item{
+		display: flex;
+		justify-content: center;
+		.container_item_logo{
+			
+			padding: 0px 20px 0px 0px;
+			font-family: Rowdies;
+			font-size: 50px;
+			font-weight: 700;
+			line-height: 150px;
 	
+		}
+	}
+	.container_item_search{
+		position:absolute;
+		top: 250px;
+		
+		.container_item_search_input {
+			margin: -90px 0px 0px 0px;
+			width: 560px;
+	}
+	}
 }
-//---- header
-.header{
+@media (max-width:600px) {
+	.container_item{
+		display: flex;
+		justify-content: center;
+		.container_item_logo{
+			
+			padding: 0px 20px 0px 0px;
+			font-family: Rowdies;
+			font-size: 50px;
+			font-weight: 700;
+			line-height: 150px;
 	
-	z-index: 1;
-}
-.header_container_item_logo{
-
-	line-height: 150px;
- font-size: 50px;
- font-family: Rowdies;
- font-weight: 700;
-}
-.header_input{
-	border-radius: 50px;
-	height: 35px;
-	width: 400px;
-}
-
-.header_input_position{
-	z-index: 50;
-	position: absolute;
-	margin: -90px  0px 0px 560px;
-}
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 400px) {
-	.header_container_item_logo{
-		font-size: 150px;
-		margin: 0px  0px 0px 300px;
+		}
 	}
-	.header_container_item_image {
-		margin: 50px  0px 0px 0px;
+	.container_item_search{
+		position:absolute;
+		top: 250px;
+		
+		.container_item_search_input {
+			margin: -90px 0px 0px 0px;
+			width: 300px;
 	}
-
-	.header_input_position{
-		margin: 0px  0px 0px 560px;
 	}
-	.body_container{
-		max-width: 400px
-
-
+}
+@media (max-width:600px) {
+	.container_item{
+		display: flex;
+		justify-content: center;
+		.container_item_logo{
+			
+			padding: 0px 20px 0px 0px;
+			font-family: Rowdies;
+			font-size: 50px;
+			font-weight: 700;
+			line-height: 150px;
+	
+		}
+	}
+	.container_item_search{
+		position:absolute;
+		top: 250px;
+		
+		.container_item_search_input {
+			margin: -90px 0px 0px 0px;
+			width: 150px;
+	}
 	}
 }
