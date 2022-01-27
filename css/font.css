@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icon";
+  src: url("../img/fonts/icon.eot?m1r900");
+  src: url("../img/fonts/icon.eot?m1r900#iefix") format("embedded-opentype"), url("../img/fonts/icon.ttf?m1r900") format("truetype"), url("../img/fonts/icon.woff?m1r900") format("woff"), url("../img/fonts/icon.svg?m1r900#icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icon" !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-heart:before {
+  content: "";
+}
+
+._icon-search:before {
+  content: "";
+}
+
+._icon-shop:before {
+  content: "";
+}
+
+._icon-user:before {
+  content: "";
+}
